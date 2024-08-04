@@ -1,0 +1,50 @@
+/* Basic styling, you can customize this */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+input,
+button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.task-text {
+    font-family: inherit;
+    text-align: center;
+
+}
+
+.edit-button,
+.delete-button {
+    display: none;
+    margin: 10px;
+ 
+}
+
+.delete-button {
+    margin: 5px 5px 5px 0px;
+}
+
+li:hover .edit-button,
+li:hover .delete-button {
+    display: inline-block;
+}
