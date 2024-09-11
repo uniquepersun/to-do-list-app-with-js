@@ -23,7 +23,7 @@ function loadTasksFromLocalStorage() {
         taskText.textContent = task.text;
         const editButton = document.createElement('button');
         editButton.classList.add('edit-button');
-        editButton.textContent = 'change';
+        editButton.textContent = 'edit';
         const deleteButton = document.createElement('button');
         deleteButton.classList.add('delete-button');
         deleteButton.textContent = 'forget';
